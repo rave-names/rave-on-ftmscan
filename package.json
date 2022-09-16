@@ -1,0 +1,14 @@
+{
+  "name": "ravext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "npx browserify main.js -o b-main.js",
+    "b": "npm run build",
+    "clean": "del b-main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
